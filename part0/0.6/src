@@ -1,0 +1,16 @@
+server-->browser: HTML-code
+server-->browser: main.css
+server-->browser: main.js
+
+note over browser:
+browser starts executing js-code
+that requests JSON data from server 
+end note
+
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
+server-->browser: [{ content: "HTML is easy", date: "2021-06-01" }, ...]
+
+note over browser:
+browser executes the event handler
+that renders notes to display
+end note
