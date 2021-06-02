@@ -1,0 +1,26 @@
+body{
+
+    margin: 20;
+    padding: );
+    font-family: sans-serif;
+    background: url(1.jpg) no-repeat;
+    background-size: cover;
+}
+.p{
+ font-size: 15px;
+ font-family:Brush Script MT;
+}
+h{
+ font-size: 65px;
+ text-align: top;
+ width: 1040px;
+ position: absolute;
+ top: -20%;
+ left: 20%;
+ border: 1px solid #800080;
+ font-family: Georgia;
+}
+a{
+font-size:25px;
+background: url(2.jpg) no-repeat;
+}
