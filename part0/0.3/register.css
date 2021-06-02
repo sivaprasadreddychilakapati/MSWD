@@ -1,0 +1,56 @@
+body {
+    margin: 20;
+    padding: );
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("5.webp");
+    background-size: cover;
+  }
+
+  .t{
+      font-size: xx-large;
+      font-style: italic;
+      color:black;
+  }
+
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 35%;
+  }
+
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  .registerbtn {
+    font-size: auto;
+    background-color: green;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 40%;
+  }
+  
+  a {
+    color: dodgerblue;
+  }
